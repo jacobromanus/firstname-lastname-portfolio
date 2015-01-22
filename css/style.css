@@ -1,0 +1,279 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* start of custom styles */
+.content {
+  padding: 0px 15px;
+  margin: 0 auto;
+  width: 970px;
+}
+
+/* Main Section */
+.main {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 38rem;
+  overflow: auto;
+}
+.main .content {
+  text-align:center;
+  padding:20px;
+  width:700px;
+  margin: 0 auto;
+}
+.main .content h1 {
+  margin-top: 9.5rem;
+  font-size: 6.775rem;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 0.1rem;
+}
+.main p {
+  display: inline;
+}
+.main .content h2 {
+  font-family: 'Niconne', cursive;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  padding-right: 10px;
+  letter-spacing: 0.2rem;
+}
+.main .content .links {
+  text-align: center;
+  overflow: auto;
+  margin-top: 2rem;
+  width: 600px;
+  height: 100px;
+   margin-left: -10px;
+}
+.main .links li {
+  display: inline-block;
+  width: 45%;
+  font-family: 'Tangerine', cursive;
+  font-size: 2.25rem;
+  text-align: center;
+}
+.j {
+  font-style: bold;
+}
+/* Header color changes */
+.j:hover {
+  color: #0000FF
+}
+.a:hover {
+  color: #FFFF00;
+}
+.c:hover {
+  color: #CC0099;
+}
+.o:hover {
+  color: #FF0000;
+}
+.b:hover {
+  color: #00FF00;
+}
+.r:hover {
+  color: orange;
+}
+.m:hover {
+  color: #FF0066;
+}
+.n:hover {
+  color: #0099CC;
+}
+.u:hover {
+  color: #CC3300;
+}
+.s:hover {
+  color: #FF0000;
+}
+/* links */
+a {
+  font-style: none;
+  color: black;
+  text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #00FF00;
+}
+a:active {
+    color: #0000FF;
+}
+/* Top Navigation */
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+  z-index: 9999;
+  padding-bottom: 15px;
+}
+.top-navigation .content {
+  height: 45px;
+}
+.top-navigation h1 {
+  font-size: 2.0rem;
+  padding-top: 10px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 0.2rem;
+}
+.top-navigation h3 {
+  font-family: 'Niconne', cursive;
+}
+.top-navigation .content {
+  text-align: center;
+  margin: 0 auto;
+}
+/* Portfolio Section */
+.portfolio {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 38rem;
+  overflow: auto;
+}
+.portfolio .content {
+  padding: 50px;
+  width: 1150px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+.portfolio h1 {
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
+  font-style: bold;
+}
+.portfolio .images {
+  overflow: auto;
+  text-align: center;
+  margin-top: 19px;
+}
+.portfolio .images li {
+  display: inline-block;
+  text-align: center;
+  width: 46%;
+}
+hr {
+  color: red;
+}
+/* About Me Page */
+.aboutme {
+  color: #221122;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+}
+.masthead-intro, .masthead-heading, .content-footer {
+  text-align: center;
+  color: white;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url( 'https://unsplash.imgix.net/uploads/14116941824817ba1f28e/78c8dff1?q=75&fm=jpg&s=eed337dca5e9e4ca8b8d23513e6b9bf6');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #FFCF33;
+}
+.masthead-intro {
+  margin-bottom: 1.6em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px;
+}
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px #221122
+}
+.content-footer, .intro, .location, .about {
+  max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em; 
+}
+.social > li {
+  display: inline-block;
+}
+.content-footer > p {
+  color: black;
+}
+.intro > p, .location > p, .content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.about > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.content-footer {
+  background-color: #5E5057;
+  border-radius: 5px;
+  border: 4px solid #220022
+}
+section p {
+  color: #000000;
+}
+section h1 {
+  text-shadow: 1px 1px 1px #000000;
+}
+
